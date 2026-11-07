@@ -151,7 +151,7 @@
         </p>
 
         <!-- Contador de Tiempo de 8 Meses -->
-        <div class="w-full max-w-2xl glass-card rounded-3xl p-6 md:p-8 shadow-xl mb-10 border border-white/80">
+        <div class="w-full max-w-2xl glass-card rounded-3xl p-6 md:p-8 shadow-xl mb-4 border border-white/80">
             <h2 class="text-xs md:text-sm uppercase tracking-widest text-roseCustom-700 font-extrabold mb-4">
                 <i class="fa-solid fa-clock-rotate-left mr-1"></i> Tiempo Compartido Juntos (8 Meses)
             </h2>
@@ -174,20 +174,6 @@
                 </div>
             </div>
             <p class="text-xs text-roseCustom-600 mt-4 italic font-medium">...marcando cada segundo a tu lado ✨</p>
-        </div>
-
-        <!-- Reproductor de Música -->
-        <div class="glass-card rounded-full px-5 py-2.5 flex items-center space-x-4 shadow-md border border-roseCustom-200">
-            <button id="musicToggle" onclick="togglePlayMusic()" class="w-10 h-10 rounded-full bg-roseCustom-500 text-white flex items-center justify-center hover:bg-roseCustom-600 transition shadow">
-                <i id="musicIcon" class="fa-solid fa-play"></i>
-            </button>
-            <div class="text-left">
-                <p id="songTitle" class="text-xs md:text-sm font-bold text-roseCustom-900">Música de fondo 🎵</p>
-                <p class="text-[10px] md:text-xs text-roseCustom-600">Dale clic para ambientar</p>
-            </div>
-            <audio id="bgMusic" loop>
-                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
-            </audio>
         </div>
     </section>
 
@@ -274,7 +260,7 @@
             <span class="text-roseCustom-600 font-extrabold uppercase tracking-widest text-xs">Galería Visual</span>
             <h2 class="font-heading text-4xl md:text-5xl text-roseCustom-800 font-extrabold mt-1">Fotos Juntos</h2>
             <div class="w-20 h-1 bg-roseCustom-400 mx-auto mt-2 rounded-full"></div>
-            <p class="text-slate-600 text-xs md:text-sm mt-2 font-medium">Reemplaza las imágenes en el código con tus fotos reales con Laura</p>
+            <p class="text-slate-600 text-xs md:text-sm mt-2 font-medium">Nuestros momentos capturados en estos 8 meses</p>
         </div>
 
         <!-- Componente Carrusel -->
@@ -283,34 +269,34 @@
                 
                 <!-- FOTO 1 -->
                 <div class="carousel-item absolute inset-0 transition-opacity duration-700 opacity-100 flex flex-col items-center justify-center">
-                    <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=1200&q=80" alt="Foto 1" class="w-full h-full object-cover">
+                    <img src="laura1.png" alt="Laura y Yo 1" class="w-full h-full object-cover">
                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-roseCustom-900/90 via-roseCustom-900/50 to-transparent p-6 text-white text-center">
-                        <h3 class="font-heading text-2xl font-bold">Nuestra Mirada</h3>
-                        <p class="text-xs md:text-sm text-roseCustom-100 font-medium">Incluso cuando te enojas, eres la más hermosa del mundo.</p>
+                        <h3 class="font-heading text-2xl font-bold">Filtros & Risas</h3>
+                        <p class="text-xs md:text-sm text-roseCustom-100 font-medium">Incluso en los momentos bobos con filtros de osito, nos vemos perfectos juntos.</p>
                     </div>
                 </div>
 
                 <!-- FOTO 2 -->
                 <div class="carousel-item absolute inset-0 transition-opacity duration-700 opacity-0 flex flex-col items-center justify-center">
-                    <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=1200&q=80" alt="Foto 2" class="w-full h-full object-cover">
+                    <img src="laura2.jpg" alt="Laura 2" class="w-full h-full object-cover">
                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-roseCustom-900/90 via-roseCustom-900/50 to-transparent p-6 text-white text-center">
-                        <h3 class="font-heading text-2xl font-bold">Risas sin Parar</h3>
-                        <p class="text-xs md:text-sm text-roseCustom-100 font-medium">Los momentos donde la risa borra cualquier pequeño malentendido.</p>
+                        <h3 class="font-heading text-2xl font-bold">Mi Reina Hermosa</h3>
+                        <p class="text-xs md:text-sm text-roseCustom-100 font-medium">La dueña de todas mis llamadas y la persona más linda de mi vida.</p>
                     </div>
                 </div>
 
                 <!-- FOTO 3 -->
                 <div class="carousel-item absolute inset-0 transition-opacity duration-700 opacity-0 flex flex-col items-center justify-center">
-                    <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=1200&q=80" alt="Foto 3" class="w-full h-full object-cover">
+                    <img src="laura3.jpg" alt="Laura y Yo 3" class="w-full h-full object-cover">
                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-roseCustom-900/90 via-roseCustom-900/50 to-transparent p-6 text-white text-center">
-                        <h3 class="font-heading text-2xl font-bold">Inseparables</h3>
-                        <p class="text-xs md:text-sm text-roseCustom-100 font-medium">80 llamadas a la semana porque nunca nos cansamos de hablarnos.</p>
+                        <h3 class="font-heading text-2xl font-bold">Cómplices Siempre</h3>
+                        <p class="text-xs md:text-sm text-roseCustom-100 font-medium">80 llamadas a la semana porque nunca nos cansamos de estar cerca.</p>
                     </div>
                 </div>
 
                 <!-- FOTO 4 -->
                 <div class="carousel-item absolute inset-0 transition-opacity duration-700 opacity-0 flex flex-col items-center justify-center">
-                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1200&q=80" alt="Foto 4" class="w-full h-full object-cover">
+                    <img src="laura4.png" alt="Laura 4" class="w-full h-full object-cover">
                     <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-roseCustom-900/90 via-roseCustom-900/50 to-transparent p-6 text-white text-center">
                         <h3 class="font-heading text-2xl font-bold">Tú y Yo</h3>
                         <p class="text-xs md:text-sm text-roseCustom-100 font-medium">8 meses siendo mi lugar favorito en la tierra.</p>
@@ -582,28 +568,6 @@
 
         setInterval(updateCounter, 1000);
         updateCounter();
-
-        // --- 5. Reproductor de Música ---
-        let isPlaying = false;
-        const audio = document.getElementById('bgMusic');
-        const musicIcon = document.getElementById('musicIcon');
-
-        function togglePlayMusic() {
-            if (!isPlaying) {
-                audio.play().then(() => {
-                    isPlaying = true;
-                    musicIcon.classList.remove('fa-play');
-                    musicIcon.classList.add('fa-pause');
-                }).catch(err => {
-                    console.log("El navegador requiere interacción previa para reproducir audio.");
-                });
-            } else {
-                audio.pause();
-                isPlaying = false;
-                musicIcon.classList.remove('fa-pause');
-                musicIcon.classList.add('fa-play');
-            }
-        }
     </script>
 </body>
 </html>
